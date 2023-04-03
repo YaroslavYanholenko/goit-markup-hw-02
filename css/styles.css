@@ -20,15 +20,16 @@
 .tel{text-decoration: none;}
   
 .link {text-decoration: none;}
-
-.nav> ul{list-style-type: none;}
+.list {list-style: none}
+.list> ul{list-style-type: none;}
 .our>ul{list-style-type: none;}
 .jobe>ul{list-style-type: none;}
 .team>ul{list-style-type: none;}
 .footer>a{text-decoration: none;}
 /* styles */
 
-.body{font-family: "Roboto", sans-serif;
+.body{
+font-family: "Roboto", sans-serif;
 color: #434455;
 background-color:var(--white);
 }
@@ -36,13 +37,15 @@ background-color:var(--white);
 .link{
     
 
-    font-family: 'Raleway';
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
-    
+    line-height: 1.17;
 
     color: var(--brend);
+
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
  .span{color:var(--dark)}
 
