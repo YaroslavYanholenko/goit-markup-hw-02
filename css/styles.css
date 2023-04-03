@@ -1,4 +1,6 @@
-:root {
+  
+  
+  :root {
 
     --brend:#4D5AE5;
     --dark :#2e2f42;
@@ -85,36 +87,32 @@ color:var(--slate)
 
 .maintext{
     
-
-    /* Header 1 */
-
-    
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
-    /* or 107% */
-
-    /* WHITE */
-
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    
     color: var(--white);
 }
 
-.btn{/* Button */
+.btn{
     
     background: var(--brend);
-    font-family: 'Roboto';
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-
-    /* WHITE */
-
+    letter-spacing: 0.04em;
     color:var(--white);
 }
+.btn:hover{background-color:var(--ocian)}
+.btn:focus{background-color:var(--ocian)}
 
-   
-.Strategy{
+
+
+.strategy{
     /* Header 3 */
 
    
@@ -131,7 +129,7 @@ color:var(--slate)
 
 
    }
-.Strategytext{
+.strategytext{
     /* Body */
 
     
@@ -148,7 +146,7 @@ color:var(--slate)
 
 
     }
-.Punctuality{
+.punctuality{
     /* Header 3 */
 
     
@@ -165,7 +163,7 @@ color:var(--slate)
 
 
     }
-.Punctualitytext{
+.punctualitytext{
     /* Body */
 
    
@@ -182,7 +180,7 @@ color:var(--slate)
 
 
     }
-.Diligence{
+.diligence{
     /* Header 3 */
 
     
@@ -203,7 +201,7 @@ color:var(--slate)
     flex: none;
     order: 0;
     flex-grow: 0;}
-.Diligencetext{
+.diligencetext{
 
     /* Body */
 
@@ -225,7 +223,7 @@ color:var(--slate)
     flex: none;
     order: 1;
     flex-grow: 0;}
-.Technologies {
+.technologies {
 
     /* Header 3 */
 
@@ -242,7 +240,7 @@ color:var(--slate)
     color: var(--dark)
 
     }
-.Technologiestext{
+.technologiestext{
     /* Body */
 
     
@@ -266,29 +264,29 @@ color:var(--slate)
 .ourjobe{
     /* Header 2 */
 
-    
+    text-transform: capitalize;
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
-    
-
-    /* NAVY BLUE */
-
+    line-height: 1.11;
+    text-align: center;
     color: var(--dark);}    
 
 
 .teamtext{
 
-    /* Header 2 */
+    background-color: #F4F4FD;
 
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
-   
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+
     /* NAVY BLUE */
 
     color: var(--dark);}
-
+.back{background-color: #FFFFFF}
 .name{/* Header 3 */
 
    
