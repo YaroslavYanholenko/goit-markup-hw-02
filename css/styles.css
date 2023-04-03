@@ -36,7 +36,7 @@ background-color:var(--white);
 
 .link{
     
-
+    text-decoration: none;
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -51,21 +51,22 @@ background-color:var(--white);
 .link:focus{color: #404bbf}
  .span{color:var(--dark)}
 
-/* header */
-    
+.list{
+    list-style: none;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color:var(--dark);
 
-    .link{
-    
- text-decoration: none;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
 
-    color: var(--dark);
+
+
 }
 
+   
+.adress-list{font-style: normal}
+.
     
 .mail{
 
