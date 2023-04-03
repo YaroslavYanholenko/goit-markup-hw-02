@@ -1,7 +1,7 @@
 :root {
 
     --brend:#4D5AE5;
-    --dark :#2E2F42;
+    --dark :#2e2f42;
     --white:#FFFFFF;
     --btn: #4D5AE5;
     --iris: #4D5AE5;
@@ -10,22 +10,7 @@
     --slate:#434455;
 
 }
-/* reset */
 
-.nav-link{ text-decoration: none;}
-
-.adress-list>ul{text-decoration: none;
-    text-transform: none;list-style-type: none;}
-.mail{text-decoration: none;}
-.tel{text-decoration: none;}
-  
-.link {text-decoration: none;}
-.list {list-style: none}
-.list> ul{list-style-type: none;}
-.our>ul{list-style-type: none;}
-.jobe>ul{list-style-type: none;}
-.team>ul{list-style-type: none;}
-.footer>a{text-decoration: none;}
 /* styles */
 
 .body{
@@ -33,11 +18,7 @@ font-family: "Roboto", sans-serif;
 color: #434455;
 background-color:var(--white);
 }
-
-.link{
-    
-    text-decoration: none;
-    font-family: "Raleway", sans-serif;
+.logo{font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -45,26 +26,29 @@ background-color:var(--white);
     color: var(--brend);
 
     letter-spacing: 0.03em;
-    text-transform: uppercase;
+    text-transform: uppercase;}
+
+.link
+{ text-decoration: none;
+    
 }
 .link:hover{color: #404bbf}
 .link:focus{color: #404bbf}
  .span{color:var(--dark)}
-
-.list{
-    list-style: none;
+.menu{
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color:var(--dark);
-
-
-
+color:var(--dark)
 
 }
+.menu:hover{color:var(--ocian)}
+.menu:focus{color: var(--ocian)}
+.list{
+list-style: none;}
 
-   
+
 .adress-list{font-style: normal}
 
     
@@ -83,24 +67,15 @@ color:var(--dark);
 
     color:var(--dark)}
 
-.tel{
+.adress{font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color:var(--slate)
+}
 
-    /* Body */
-
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height, or 150% */
-
-    letter-spacing: 0.02em;
-
-    /* SLATE */
-
-    color:var(--dark)}
-
-    .mail:hover{color: var(--ocian)}
-    .tel:hover{color: var(--ocian)}
+   
+    .adress:hover{color: var(--ocian)}
+    .adress:focus{color: var(--ocian)}
 /* main */
 
 .mainsection{
@@ -337,17 +312,7 @@ color:var(--dark);
 
    /* footer */
 .footer{background: var(--dark);}
-.link{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 21px;
-   
-    color: var(--brend);
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-}
+
 .span-footer{
     font-family: 'Raleway', sans-serif;
         font-weight: 800;
