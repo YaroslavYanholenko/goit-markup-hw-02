@@ -97,7 +97,7 @@ color:var(--slate)
 }
 
 .btn{
-    
+    cursor: pointer;
     background: var(--brend);
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -271,7 +271,7 @@ color:var(--slate)
     text-align: center;
     color: var(--dark);}    
 
-
+.team{background-color: #F4F4FD}
 .teamtext{
 
     background-color: #F4F4FD;
@@ -287,18 +287,14 @@ color:var(--slate)
 
     color: var(--dark);}
 .back{background-color: #FFFFFF}
-.name{/* Header 3 */
 
-   
+
+
+.name{
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
-    
-
     letter-spacing: 0.02em;
-
-    /* NAVY BLUE */
-
     color: var(--dark);}
 .work{
     font-weight: 400;
@@ -336,22 +332,22 @@ color:var(--slate)
     color: var(--cold);}
 
 .search-btn{
-    font-family: 'Roboto';
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    
+    letter-spacing: 0.04em;
     color: var(--brend);
     box-sizing: border-box;
-
-   
-    /* CLOUD */
-
     background: #F4F4FD;
-    /* CORNFLOWER */
-
     border: 1px solid #E7E9FC;
     border-radius: 4px;
-
+    cursor: pointer;
     }
+.search-btn:hover{
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+.search-btn:focus{color: #FFFFFF;
+    background-color: #404BBF;}
