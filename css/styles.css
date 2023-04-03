@@ -47,25 +47,25 @@ background-color:var(--white);
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
+.link:hover{color: #404bbf}
+.link:focus{color: #404bbf}
  .span{color:var(--dark)}
 
 /* header */
     
 
-    .nav-link{
-
-    /* Body Medium */
-
+    .link{
+    
+ text-decoration: none;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    /* identical to box height, or 150% */
-
+    line-height: 1.5;
     letter-spacing: 0.02em;
 
     color: var(--dark);
 }
-.nav-link:hover{ color:var(--ocian)}
+
     
 .mail{
 
@@ -336,24 +336,29 @@ background-color:var(--white);
 
    /* footer */
 .footer{background: var(--dark);}
-.footer-logo{
-    font-family: 'Raleway';
+.link{
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 21px;
    
     color: var(--brend);
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 .span-footer{
-    font-family: 'Raleway';
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 21px;
+    font-family: 'Raleway', sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 21px;
+
+        color: var(--cold);
+
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
     
-
-    /* CLOUD */
-
-    color: var(--cold);
 
 }
 .footer-text{
